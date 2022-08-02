@@ -14,7 +14,7 @@ This is an example of negative transfer. It is in fact commonplace in Graph pre-
 
 # Example of how time complexity of spectral methods scales with datasets
 
-We recall that these are the statistics of our pre trained networks : 
+We recall that these are the statistics of datasets available to pre train our networks : 
 
 ![](./datasetdetails.png)
 
@@ -28,4 +28,4 @@ Similar to the ego graph case, the time per graph is also widely varying with de
 ![](./timeversusnode.png)
 ![](./timeversusdegree.png)
 
-However, quite importantly, the scaling is at best linear vs the log of the size of the graph, and hence manageable, and the ego graph does not come close to approaching 256 in average size.
+However, quite importantly, the scaling is at best linear vs the log of the size of the graph, and hence manageable, and the ego graph does not come close to approaching 256 in average size. In short, the scaling is not untenable with the growth, and neither is SGCL particularly costly - it is close to GraphCL and all methods except MVGRL (computed with the heat variant).
