@@ -16,7 +16,7 @@ This is an example of negative transfer. It is in fact commonplace in Graph pre-
 
 We recall that these are the statistics of our pre trained networks : 
 
-![](./data.jpg)
+![](./datasetdetails.png)
 
 As such we observe that the size of the ego graph generally scales with the size of the overall graph, but somewhat slower than linearly, even on a log scale. Further the degree scaling is inconsistent, possibly due to the NetRep dataset.
 
