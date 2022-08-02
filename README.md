@@ -7,4 +7,4 @@ We can see here some example histograms, with mean and standard deviation noted,
 
 This is an example of negative transfer. It is in fact commonplace in Graph pre-training. (https://openreview.net/forum?id=HJlWWJSFDH), and the primary reason frozen pre-training is beaten out by unsupervised methods.
 
-[]{imdb-binary_10.jpg}
+[]{./imdb-binary_10.jpg}
