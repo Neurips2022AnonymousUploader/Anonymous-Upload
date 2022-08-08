@@ -35,13 +35,15 @@ Below, all three figures are histograms of different random runs initialized fro
 
 # hB1i - Alignment
 
-Here, we provide two illustrative figures that respectively demonstrate :
+Here, we provide two illustrative figures we make that respectively demonstrate:
+1.	The case where the global graph, after a random walk, can yield two views, which after Laplacian eigendecomposition end up with inconsistent embeddings for the same node, and thus requires alignment.
+2.	The Wasserstein-Procrustes alignment process which is used as a subprocess to correct the inconsistent embeddings.
+If the reader hope to know more details about the network embedding alignment, representative papers that explain the Wasserstein Procrustes method include CONE-ALIGN [2]- especially in figures 1 and 2 and section 4.2, as well as REGAL [3] and G-CREWE [4]. 
 
-1) The case where the global graph, after a random walk, can yield two views, which after Laplacian eigendecomposition end up with inconsistent embeddings for the same node, and thus requires alignment.
-
-2) The Wasserstein-Procrustes alignment process which is used as a subprocess to correct the inconsistent embeddings.
-
-Representative papers that explain the Wasserstein Procrustes method include CONE-ALIGN (https://dl.acm.org/doi/pdf/10.1145/3340531.3412136) - especially in figures 1 and 2 and section 4.2, as well as REGAL (https://arxiv.org/abs/1802.06257) and G-CREWE (https://arxiv.org/pdf/2007.16208.pdf). The latter two include discussions on the Nystrom method which is similar to ours.
+[1] Hu, Weihua, et al. "Strategies for pre-training graph neural networks."  ICLR 2020.
+[2] Chen, Xiyuan, et al. "Cone-align: Consistent network alignment with proximity-preserving node embedding." CIKM 2020. https://dl.acm.org/doi/pdf/10.1145/3340531.3412136
+[3] Heimann, Mark, et al. "Regal: Representation learning-based graph alignment." CIKM 2018. https://dl.acm.org/doi/pdf/10.1145/3269206.3271788
+[4] Qin, Kyle K., et al. "G-crewe: Graph compression with embedding for network alignment." CIKM 2020. https://arxiv.org/pdf/2007.16208.pdf
 
 ![](./alignment_take2.jpg)
 ![](./Alignment_edited_page-0001.jpg)
