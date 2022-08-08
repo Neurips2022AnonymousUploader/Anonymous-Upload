@@ -11,8 +11,8 @@ We recall that these are the statistics of datasets available to pre train our n
 
 As such we observe that the size of the ego graph generally scales with the size of the overall graph, but somewhat slower than linearly, even on a log scale. Further the degree scaling is inconsistent, possibly due to the NetRep dataset.
 
-![](./sizeofview.png)
-![](./egographanddegree.png)
+![](./egoversussize_labeled_fixed.png)
+![](./egographanddegree_labeled.png)
 
 Similar to the ego graph case, the time per graph is also widely varying with degree. However, if NetRep can be excluded, an overall trend of the time increasing with higher degree is obvious, as is the trend of increasing time with overall pretrain graph size.
 
