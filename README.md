@@ -16,8 +16,8 @@ As such we observe that the size of the ego graph generally scales with the size
 
 Similar to the ego graph case, the time per graph is also widely varying with degree. However, if NetRep can be excluded, an overall trend of the time increasing with higher degree is obvious, as is the trend of increasing time with overall pretrain graph size.
 
-![](./timeversusnode.png)
-![](./timeversusdegree.png)
+![](./timeversusvertices_labeled.png)
+![](./timeversusdegree_labeled.png)
 
 However, quite importantly, the scaling is at best linear vs the log of the size of the graph, and hence manageable, and the ego graph does not come close to approaching 256 in average size. In short, the scaling is not untenable with the growth, and neither is SGCL particularly costly - it is close to GraphCL and all methods except MVGRL (computed with the heat variant).
 
