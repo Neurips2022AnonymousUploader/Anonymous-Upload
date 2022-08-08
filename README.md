@@ -27,6 +27,7 @@ We can see here some example histograms, with mean and standard deviation noted,
 
 This is an example of negative transfer (a form of overfitting). It is in fact commonplace in Graph pre-training. (https://openreview.net/forum?id=HJlWWJSFDH), and the primary reason frozen pre-training is beaten out by unsupervised methods. This phenomenon is not specific to GCC.
 
+Below, all three figures are histograms of different random runs initialized from the same core model, with y-axis representing counts of the occurrence, and x-axis representing accuracy. The x-label indicates mean accuracy and standard deviation, and the mean accuracy falls with more training.
 
 ![](./imdb-binary_5.jpg)
 ![](./imdb-binary_10.jpg)
