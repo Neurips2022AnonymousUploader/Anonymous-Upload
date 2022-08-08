@@ -23,15 +23,19 @@ However, quite importantly, the scaling is at best linear vs the log of the size
 
 # D78f - Example of negative transfer on IMDB-BINARY
 
-We can see here some example histograms, with mean and standard deviation noted, and an overall Gaussian spread of outcomes for GCC frozen transfers on IMDB-BINARY with DBLP as the pretrain bench. Contrary to what is desired, the performance is worse as the number of epochs increases. It becomes worse from 5 to 10 to 20.
+We can see here some example histograms, with mean and standard deviation noted, and an overall Gaussian spread of outcomes for GCC[1] frozen transfers on IMDB-BINARY with DBLP as the pretrain bench. Contrary to what is desired, the performance is worse as the number of epochs increases. It becomes worse from 5 to 10 to 20.
 
-This is an example of negative transfer (a form of overfitting). It is in fact commonplace in Graph pre-training. (https://openreview.net/forum?id=HJlWWJSFDH), and the primary reason frozen pre-training is beaten out by unsupervised methods. This phenomenon is not specific to GCC.
+This is an example of negative transfer (a form of overfitting) and is noted in section 4.3 of GCC as due to domain shift. It is in fact commonplace in Graph pre-training [2], and the primary reason frozen pre-training is beaten out by unsupervised methods. This phenomenon is not specific to GCC.
 
 Below, all three figures are histograms of different random runs initialized from the same core model, with y-axis representing counts of the occurrence, and x-axis representing accuracy. The x-label indicates mean accuracy and standard deviation, and the mean accuracy falls with more training.
 
 ![](./imdb-binary_5.jpg)
 ![](./imdb-binary_10.jpg)
 ![](./imdb-binary_20.jpg)
+
+[1] Qiu, Jiezhong, et al. "GCC: Graph contrastive coding for graph neural network pre-training." KDD 2020.
+
+[2] Hu, Weihua, et al. "Strategies for pre-training graph neural networks."  ICLR 2020.
 
 # hB1i - Alignment
 
