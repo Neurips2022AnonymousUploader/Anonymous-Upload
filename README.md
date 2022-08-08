@@ -42,5 +42,5 @@ Here, we provide two illustrative figures that respectively demonstrate :
 
 Representative papers that explain the Wasserstein Procrustes method include CONE-ALIGN (https://dl.acm.org/doi/pdf/10.1145/3340531.3412136) - especially in figures 1 and 2 and section 4.2, as well as REGAL (https://arxiv.org/abs/1802.06257) and G-CREWE (https://arxiv.org/pdf/2007.16208.pdf). The latter two include discussions on the Nystrom method which is similar to ours.
 
-![](./alignment_take2.pdf)
-![](./Alignment_edited.jpg)
+![](./alignment_take2.jpg)
+![](./Alignment_edited_page-0001.jpg)
