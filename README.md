@@ -3,6 +3,10 @@ Here, we upload images for Neurips 2022 submission of Spectral Graph Contrastive
 
 Edit, Aug 8 : We also add alignment literature for better illustration for reviewer hB1i.
 
+Edit, Aug 14 : We received a late review from reviewer Gxij. Since we cannot respond on openreview, we would like to point out that SUGRL and MERIT are papers from AAAI 2022 and IJCAI 2022 respectively, and one (MERIT) has to do with temporal graphs (not our area). Further, the code upload for SUGRL (AAAI 22) was only finished in April, which is hardly enough time for us to attend to this baseline. For MERIT, we could not even find code, and it is even unlikely this paper was out in any form before the neurips deadline, as IJCAI 2022 had a camera ready deadline in May itself. We view these two demands for comparison as unreasonable.
+
+Regarding the other demands of the reviewer, we (from our initial version itself) put sections in our appendix regarding run time, ablation study (the contribution per heuristic). The demand for the standard deviation is also there in the appendix along with confidence intervals on top of it. We also urge that our comments to reviewers be taken into account which go over these points. Some of the popular data sets demanded for experiment have already been addressed in the appendix and reviewer comments (cora, citeseer), but more importantly these are not even our focus - as we make clear in our comments to reviewers, we are aiming to learn a method for node attribute free cases, which these do not fall under.
+
 # ttS5 - Example of how time complexity of spectral methods scales with datasets
 
 We recall that these are the statistics of datasets available to pre train our networks : 
